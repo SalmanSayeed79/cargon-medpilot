@@ -1,0 +1,27 @@
+.grow {
+  -webkit-animation: growing 0.5s ease-out;
+          animation: growing 0.5s ease-out;
+}
+
+@-webkit-keyframes growing {
+  from {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes growing {
+  from {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=Animation.css.map */

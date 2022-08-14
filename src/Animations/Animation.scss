@@ -1,0 +1,12 @@
+.grow{
+    animation: growing 0.5s ease-out;
+    
+}
+@keyframes growing {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
